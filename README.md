@@ -1,10 +1,10 @@
 # Car Race
 
-###Challenge
+### Challenge
 
 Build out code in the `lib` directory that simulates a car race!
 
-###Steps
+### Steps
 
 * run `rspec` in the main directory to see your failing tests
 * READ THE ERRORS and methodically pass each one by one
