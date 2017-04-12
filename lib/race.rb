@@ -5,6 +5,8 @@ class Race
 
   def initialize
     @cars = [Car.new, Car.new]
+    @cars.first.name = 'Car_One'
+    @cars.last.name = 'Car_Two'
     @cars.first.speed = Random.rand(1..100)
     @cars.last.speed = Random.rand(1..100)
   end
@@ -19,3 +21,7 @@ class Race
     @loser = @cars.first : loser = @cars.last
   end
 end
+
+# to race, simply CD into the lib folder in the command line and type "ruby race.rb"
+race = Race.new
+puts race.winner.name
