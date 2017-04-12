@@ -1,5 +1,9 @@
 require_relative 'car'
 
 class Race
-  #write Race class code here
+  def initialize
+    def cars
+      @cars = [Car.new, Car.new]
+    end
+  end
 end
